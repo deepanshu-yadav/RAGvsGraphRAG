@@ -26,3 +26,41 @@ Ebenezer Scrooge is the protagonist of the narrative, a wealthy but miserly busi
 
 (Time taken: 50.98s)
 
+Run 2 
+
+============================================================
+NORMAL RAG QUERY: What are the top themes in this story?
+============================================================
+The top themes in this story include:
+
+1. **Generosity and Kindness**: The importance of being kind and charitable, as seen in the way Scrooge and his family treat others, especially the Cratchit family, despite their poverty.
+
+2. **Family and Community**: The strong bond within the Cratchit family and the community's support for one another, particularly highlighted during their Christmas celebrations.
+
+3. **Forgiveness and Redemption**: The theme of redemption is central, as Scrooge is guided by the Ghost of Christmas Present to understand the impact of his actions and the importance of kindness.
+
+4. **The Spirit of Christmas**: The story emphasizes the true spirit of Christmas, focusing on joy, generosity, and the well-being of others rather than material wealth.
+
+5. **The Weight of Injustice**: The Ghost of Christmas Present reflects on the injustice and suffering caused by the world's indifference, urging Scrooge (and by extension, readers) to make amends.
+
+These themes are woven throughout the narrative, illustrating the transformative power of empathy, compassion, and the spirit of giving.
+
+(Time taken: 415.41s)
+
+
+13:19:22  INFO     ============================================================
+13:19:22  INFO     ============================================================
+13:19:22  INFO     NORMAL RAG QUERY: Who is Ebenezer Scrooge and what is his character arc?
+13:19:22  INFO     Querying Qdrant for: 'Who is Ebenezer Scrooge and what is his character arc?'
+13:19:22  INFO     HTTP Request: POST http://localhost:6333/collections/dickens_book/points/query "HTTP/1.1 200 OK"
+13:19:22  INFO     Sending prompt to local LLM...
+13:26:55  INFO     HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+============================================================
+NORMAL RAG QUERY: Who is Ebenezer Scrooge and what is his character arc?
+============================================================
+Ebenezer Scrooge is the main character in Charles Dickens' story, who starts as a miserly, cold-hearted man deeply focused on accumulating wealth and avoiding social responsibilities. His character arc involves a significant transformation triggered by the visitations of his deceased business partner, Jacob Marley, and three Ghosts of Christmas. Initially, Scrooge is portrayed as disdainful of Christmas and unwelcoming to those who wish to celebrate it, often dismissing its significance as merely a "humbug." However, as the narrative unfolds, Scrooge encounters visions of his own past, present, and future during the Ghosts' visits. These encounters reveal the profound loneliness, kindness, and generosity of spirit he possessed but had long since abandoned, particularly his relationship with his former business partner, Fezziwig, and the impact of his actions on those around him. Each Ghost demonstrates the consequences of his miserly behavior and the joy and warmth that generosity can bring. By the end of the story, Scrooge is profoundly changed; he embraces the spirit of Christmas, becomes a kind and generous person, and actively seeks to improve the lives of those less fortunate. His arc illustrates a redemption from selfishness to selflessness, highlighting the importance of empathy, compassion, and community.
+
+(Time taken: 452.82s)
+
+
+13:26:55  INFO     ============================================================
