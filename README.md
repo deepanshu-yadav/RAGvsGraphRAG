@@ -56,11 +56,15 @@ python -m spacy download en_core_web_sm
 Download llama cpp server from [Windows here](https://github.com/ggml-org/llama.cpp/releases/download/b8574/llama-b8574-bin-win-cpu-x64.zip)  or [Linux  here](https://github.com/ggml-org/llama.cpp/releases/download/b8574/llama-b8574-bin-ubuntu-x64.tar.gz)
 and granite model from [here](https://huggingface.co/ibm-granite/granite-4.0-micro-GGUF/blob/main/granite-4.0-micro-Q5_0.gguf). Granite will work for this simple comparison. 
 
-And then run 
+And then run
+```bash 
 llama-server.exe -m "<path_to_your_model>granite-4.0-micro-Q5_0.gguf" --host 0.0.0.0 --port 8000 --n-gpu-layers -1 --embeddings  --pooling mean -c 32768
-
+```
 or in linux
-llama-server -m "<path_to_your_model>granite-4.0-micro-Q5_0.gguf" --host 0.0.0.0 --port 8000 --n-gpu-layers -1 --embeddings  --pooling mean -c 32768
+you could simply run 
+```bash
+./llama-server -hf ibm-granite/granite-4.0-micro-GGUF:Q5_0 --host 0.0.0.0 --port 8000 --n-gpu-layers -1 --embeddings  --pooling mean -c 32768
+```
 
 ## Running Normal RAG (Qdrant)
 
