@@ -38,8 +38,14 @@ docker compose up -d
 
 Install the required packages using `requirements.txt`:
 
+For windows
 ```bash
 pip install -r requirements.txt
+```
+
+For linux
+```bash
+pip install -r requirements-linux.txt
 ```
 
 and then download spacy models
